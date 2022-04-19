@@ -8,7 +8,6 @@ Created on Wed Jan 26 16:49:39 2022
 #import sys
 #sys.path.append(r'/Users/yli5/Box\ Sync/NREL_documents/PythonWorking/PilotPlant')
 
-from isort import file
 from pputils import FrenchPress
 import statistics as stat
 from datetime import datetime

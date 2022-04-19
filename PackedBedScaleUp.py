@@ -1,5 +1,3 @@
-from multiprocessing.sharedctypes import Value
-
 import numpy as np
 from ClassicKCAnalyzer import ClassicKCAnalyzer
 from ColumnExperiment import ColumnExperiment
