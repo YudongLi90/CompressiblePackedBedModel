@@ -2,7 +2,6 @@ from cmath import exp
 import glob
 import os
 
-from isort import file
 from matplotlib import pyplot as plt
 import numpy as np
 import matplotlib as mpl
