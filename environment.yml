@@ -1,0 +1,20 @@
+name: CPB_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - scipy
+  - python=3.8
+  - tensorflow-gpu
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - ipython
+  - jupyter
+  - sqlalchemy
+  - pymysql
+  - pymssql
+  - seaborn
+  - openpyxl
