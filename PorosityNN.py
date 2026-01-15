@@ -47,11 +47,11 @@ class PorosityNN(PropertyNN):
         # compare experiment measured data with NN predcition
         fig = plt.figure(figsize=(8,6))
         ax = fig.add_subplot(1, 1, 1)
-        plt.scatter(self.property_exp,self.predicted_exp_reversed.reshape((len(self.predicted_exp_reversed),)),color='C1',markersize=9)
+        plt.plot(self.property_exp,self.predicted_exp_reversed.reshape((len(self.predicted_exp_reversed),)),'o',color='C1',markersize=9)
         plt.plot(np.linspace(min(self.property_exp),max(self.property_exp),100), 
                 np.linspace(min(self.property_exp),max(self.property_exp),100))
-        plt.ylabel('Experiment')
-        plt.xlabel('Prediction')
+        plt.xlabel('Experiment')
+        plt.ylabel('Prediction')
         ax.tick_params(axis = 'y', which = 'major', direction = 'out', length = 6.0, width = 2.0)
         ax.tick_params(axis = 'x', which = 'major', direction = 'out', length = 6.0, width = 2.0)
         for axis in ['top','bottom','left','right']:

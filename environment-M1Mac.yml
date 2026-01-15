@@ -1,0 +1,25 @@
+name: CPB_env
+channels:
+  - apple
+  - conda-forge
+dependencies:
+  - tensorflow-deps
+  - python=3.9
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - ipython
+  - jupyter
+  - sqlalchemy
+  - pymysql
+  - pymssql
+  - seaborn
+  - openpyxl
+  - pip
+  - pip:
+    - tensorflow-macos
+    - tensorflow-metal
+
